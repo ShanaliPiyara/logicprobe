@@ -1,7 +1,7 @@
 # logicprobe
 # Logic Probe - Auto-Adaptive Digital Signal Detector
 
-![Logic Probe](images/logic_probe.jpg)
+![Logic Probe](images/logic_probe.png)
 
 ## Overview
 
@@ -51,21 +51,17 @@ logic-probe/
 ├── block-diagram/
 │   ├── system_block.pdf         # System architecture
 │   └── system_block.png         # Block diagram image
-├── schematic/
-│   ├── logic_probe.pdf          # Circuit schematic
-│   └── logic_probe.sch          # Design source file
+├── schematic/      
+│   └── logic_probe.png           # Circuit schematic
 ├── pcb/
-│   ├── layout.pdf               # PCB layout
 │   ├── gerbers/                 # Manufacturing files
-│   └── assembly.pdf             # Component placement
+│   └── layout.png               # PCB layout
 ├── user-manual/
-│   ├── assembly_guide.pdf       # Build instructions
-│   ├── user_guide.pdf           # Operation manual
-│   └── bom.pdf                  # Bill of materials
+│   ├── assembly_guide.md        # Build instructions
+│   ├── user_guide.md            # Operation manual
+│   └── bom.md                   # Bill of materials
 └── images/
-    ├── assembled.jpg            # Finished product
-    ├── pcb_top.jpg              # PCB photos
-    └── usage_demo.jpg           # Application examples
+    └── logic_probe.png           # Product
 ```
 
 ## Quick Start
